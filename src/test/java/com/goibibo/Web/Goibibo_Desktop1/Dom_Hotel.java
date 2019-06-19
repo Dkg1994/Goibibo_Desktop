@@ -43,7 +43,11 @@ driver.findElement(By.xpath("//*[@id=\"srpContainer\"]/div[2]/div[2]/div/div[1]/
 
 Thread.sleep(1000);
 
-driver.findElement((By.xpath("//*[@id=\"srpContainer\"]/div[2]/div[2]/div/div[2]/div/div[5]/div[1]/div/div/section[1]/div[2]/div/div[3]/div[2]/div[2]"))).click();
+driver.findElement(By.xpath("//*[@id=\"srpContainer\"]/div[2]/div[2]/div/div[2]/div/div[1]/ul/li[3]/a/span[1]")).click();
+
+Thread.sleep(3000);
+
+driver.findElement(By.linkText("The Daanish Residency")).click();
 
 Thread.sleep(5000);
 
@@ -61,7 +65,7 @@ driver.switchTo().window(tabs.get(1));
 Thread.sleep(3000);
 
 
- driver.findElement(By.xpath("//*[@id=\"DetailsQuickView\"]/div[2]/div[2]/div[6]/div/a/button")).click();
+ driver.findElement(By.xpath("//*[@id=\"DetailsQuickView\"]/div[2]/div[2]/div[7]/div/a/button")).click();
 
 Thread.sleep(2000);
 
@@ -95,7 +99,7 @@ Thread.sleep(2000);
 
 driver.findElement(By.xpath("//*[@id=\"travellerForm\"]/div[14]/div[2]")).click();
 
-Thread.sleep(7000);
+Thread.sleep(10000);
 
 driver.findElement(By.xpath("//*[@id=\"nb\"]/div[1]/div[1]/div[2]")).click();
 

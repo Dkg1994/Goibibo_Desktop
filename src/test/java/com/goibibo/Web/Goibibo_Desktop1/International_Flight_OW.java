@@ -150,7 +150,7 @@ Thread.sleep(1000);
  
 // Click on Proceed to Payment button
  
- driver.findElement(By.xpath("//*[@id=\"travellerForm\"]/div[2]/button")).click();
+ driver.findElement(By.xpath("//*[@id=\\\"content\\\"]/div/div[2]/div/div[2]/div/div[1]/div[3]/div[2]/div[3]/button")).click();
  
  Thread.sleep(5000);
  
