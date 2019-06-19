@@ -99,7 +99,7 @@ Thread.sleep(2000);
 
 driver.findElement(By.xpath("//*[@id=\"travellerForm\"]/div[14]/div[2]")).click();
 
-Thread.sleep(10000);
+Thread.sleep(15000);
 
 driver.findElement(By.xpath("//*[@id=\"nb\"]/div[1]/div[1]/div[2]")).click();
 
