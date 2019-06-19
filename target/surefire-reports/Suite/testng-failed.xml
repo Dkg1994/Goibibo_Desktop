@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="testng(failed)">
+    <classes>
+      <class name="com.goibibo.Web.Goibibo_Desktop1.International_Hotel">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.goibibo.Web.Goibibo_Desktop1.International_Hotel -->
+      <class name="com.goibibo.Web.Goibibo_Desktop1.International_Flight_OW">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.goibibo.Web.Goibibo_Desktop1.International_Flight_OW -->
+      <class name="com.goibibo.Web.Goibibo_Desktop1.Dom_Hotel">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.goibibo.Web.Goibibo_Desktop1.Dom_Hotel -->
+    </classes>
+  </test> <!-- testng(failed) -->
+</suite> <!-- Failed suite [Suite] -->
