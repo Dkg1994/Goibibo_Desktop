@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="71551" started-at="2019-06-19T09:42:40Z" finished-at="2019-06-19T09:43:52Z">
+  <suite name="Default suite" duration-ms="76325" started-at="2019-06-20T17:49:53Z" finished-at="2019-06-20T17:51:10Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="71551" started-at="2019-06-19T09:42:40Z" finished-at="2019-06-19T09:43:52Z">
-      <class name="com.goibibo.Web.Goibibo_Desktop1.International_Hotel">
-        <test-method status="PASS" signature="f()[pri:0, instance:com.goibibo.Web.Goibibo_Desktop1.International_Hotel@4cc0edeb]" name="f" duration-ms="71529" started-at="2019-06-19T09:42:40Z" finished-at="2019-06-19T09:43:52Z">
+    <test name="Default test" duration-ms="76325" started-at="2019-06-20T17:49:53Z" finished-at="2019-06-20T17:51:10Z">
+      <class name="com.goibibo.Web.Goibibo_Desktop1.International_Flight_OW">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.goibibo.Web.Goibibo_Desktop1.International_Flight_OW@4cc0edeb]" name="f" duration-ms="76305" started-at="2019-06-20T17:49:53Z" finished-at="2019-06-20T17:51:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-      </class> <!-- com.goibibo.Web.Goibibo_Desktop1.International_Hotel -->
+      </class> <!-- com.goibibo.Web.Goibibo_Desktop1.International_Flight_OW -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

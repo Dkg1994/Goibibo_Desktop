@@ -94,7 +94,7 @@ Thread.sleep(1000);
     
  driver.findElement(By.xpath("//*[@id=\"content\"]/div/div[2]/div/div[4]/div/div[4]/div[2]/div[2]/div[2]/div/span[1]/span/input")).click();
  
- Thread.sleep(5000);
+ Thread.sleep(7000);
  
 // To click on Baggage & fare rule button on review page
  
@@ -146,13 +146,14 @@ Thread.sleep(1000);
  
  driver.findElement(By.xpath("//*[@id=\"mobile\"]")).sendKeys("9999999999");
  
- Thread.sleep(5000);
+ Thread.sleep(6000);
  
 // Click on Proceed to Payment button
  
- driver.findElement(By.xpath("//*[@id=\\\"content\\\"]/div/div[2]/div/div[2]/div/div[1]/div[3]/div[2]/div[3]/button")).click();
  
- Thread.sleep(5000);
+ driver.findElement(By.xpath("//*[@id=\"content\"]/div/div[2]/div/div[2]/div/div[1]/div[3]/div[2]/div[3]/button")).click();
+ 
+ Thread.sleep(8000);
  
 // Click on Net banking option
  
