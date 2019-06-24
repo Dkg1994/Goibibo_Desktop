@@ -19,9 +19,9 @@
   
  <distributionManagement>
     <repository>
-      <id>Goibibo_Desktop</id>
-      <name>Goibibo_Desktop</name>
-      <url>http://localhost:8080/job/Goibibo_Desktop/</url>
+      <id>Maven%20Project%20(Desktop)</id>
+      <name>Maven%20Project%20(Desktop)</name>
+      <url>http://localhost:8080/job/Maven%20Project%20(Desktop)/</url>
     </repository>
 </distributionManagement>
 
