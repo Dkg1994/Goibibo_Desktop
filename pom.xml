@@ -13,6 +13,14 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  
+  <distributionManagement>
+    <repository>
+        <id>Dkg1994s</id>
+        <name>Goibibo_Desktop</name>
+        <url>https://github.com/Dkg1994/Goibibo_Desktop.git</url>
+    </repository>
+</distributionManagement>
 
   <dependencies>
     <dependency>
@@ -21,6 +29,8 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    
+    
     
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
@@ -42,6 +52,7 @@
         <artifactId>selenium-server</artifactId>
         <version>3.141.59</version>
     </dependency>  
+  
   
     
   </dependencies>
@@ -74,6 +85,9 @@
         </configuration>
       </plugin>
     </plugins>
+    
+    
+    
   </build>
   
   
