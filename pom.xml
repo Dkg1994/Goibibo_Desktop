@@ -21,7 +21,7 @@
     <repository>
         <id>staging</id>
         <!-- 172.16.5.60.nip.io should change your local domain -->
-        <url>http://nexus.fabric8.172.16.5.60.nip.io/content/repositories/staging</url>
+        <url>https://github.com/Dkg1994/Goibibo_Desktop</url>
     </repository>
     <!--<site>-->
         <!--<id>website</id>-->

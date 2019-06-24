@@ -13,11 +13,6 @@
           <include name="f"/>
         </methods>
       </class> <!-- com.goibibo.Web.Goibibo_Desktop1.International_Flight_OW -->
-      <class name="com.goibibo.Web.Goibibo_Desktop1.Bus_Vertical">
-        <methods>
-          <include name="f"/>
-        </methods>
-      </class> <!-- com.goibibo.Web.Goibibo_Desktop1.Bus_Vertical -->
       <class name="com.goibibo.Web.Goibibo_Desktop1.Train_Vertical">
         <methods>
           <include name="f"/>
