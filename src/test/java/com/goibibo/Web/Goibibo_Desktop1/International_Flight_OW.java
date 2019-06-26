@@ -171,7 +171,7 @@ Thread.sleep(1000);
  
  driver.findElement(By.xpath("//*[@id=\"nbPayNow\"]/div/button")).click();
  
- Thread.sleep(4000);
+ Thread.sleep(9000);
  
  driver.close();
  
