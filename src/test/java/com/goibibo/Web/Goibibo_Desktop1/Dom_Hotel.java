@@ -41,11 +41,11 @@ Thread.sleep(2000);
 
 driver.findElement(By.xpath("//*[@id=\"srpContainer\"]/div[2]/div[2]/div/div[1]/div/ul/li[6]/div/div[3]/label/i[2]")).click();
 
-Thread.sleep(1000);
+Thread.sleep(2000);
 
 driver.findElement(By.xpath("//*[@id=\"srpContainer\"]/div[2]/div[2]/div/div[2]/div/div[1]/ul/li[3]/a/span[1]")).click();
 
-Thread.sleep(3000);
+Thread.sleep(5000);
 
 driver.findElement(By.linkText("The Daanish Residency")).click();
 
