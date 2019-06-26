@@ -102,7 +102,7 @@ System.setProperty("webdriver.chrome.driver","D:\\Eclips backup\\Jar Files for u
 	  
 	  driver.findElement(By.xpath("//*[@id=\"selectedBank\"]/option[11]")).click();
 	  
-	  Thread.sleep(6000);
+	  Thread.sleep(8000);
 	  
 	  driver.close();
 	
