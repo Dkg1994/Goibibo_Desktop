@@ -153,7 +153,7 @@ Thread.sleep(1000);
  
  driver.findElement(By.xpath("//*[@id=\"content\"]/div/div[2]/div/div[2]/div/div[1]/div[3]/div[2]/div[3]/button")).click();
  
- Thread.sleep(8000);
+ Thread.sleep(9000);
  
 // Click on Net banking option
  
@@ -165,13 +165,13 @@ Thread.sleep(1000);
  
  driver.findElement(By.xpath("//*[@id=\"selectedBank\"]/option[4]")).click();
  
- Thread.sleep(2000);
+ Thread.sleep(8000);
  
 // Click on paynow button
  
  driver.findElement(By.xpath("//*[@id=\"nbPayNow\"]/div/button")).click();
  
- Thread.sleep(9000);
+ Thread.sleep(4000);
  
  driver.close();
  
