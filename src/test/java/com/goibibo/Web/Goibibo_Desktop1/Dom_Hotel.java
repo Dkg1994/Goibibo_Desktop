@@ -106,10 +106,12 @@ driver.findElement(By.xpath("//*[@id=\"nb\"]/div[1]/div[1]/div[2]")).click();
 Thread.sleep(1000);
 
 driver.findElement(By.xpath("//*[@id=\"selectedBank\"]/option[7]")).click();
+	  
+	  Thread.sleep(2000);
 
 driver.findElement(By.xpath("//*[@id=\"nbPayNow\"]/div/button")).click();
 
-Thread.sleep(5000);
+Thread.sleep(9000);
 
 driver.close();
 
