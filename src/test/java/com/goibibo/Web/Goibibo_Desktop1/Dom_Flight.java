@@ -138,7 +138,7 @@ public class Dom_Flight {
 	       
 	       driver.findElement(By.xpath("//*[@id=\"travellerForm\"]/div[2]/button")).click();
 	       
-	       Thread.sleep(5000);
+	       Thread.sleep(8000);
 	       
 //	       Click on Net banking option
 	       
@@ -150,7 +150,7 @@ public class Dom_Flight {
 	       
 	       driver.findElement(By.xpath("//*[@id=\"selectedBank\"]/option[4]")).click();
 	       
-	       Thread.sleep(2000);
+	       Thread.sleep(6000);
 	       
 //	       Click on paynow button
 	       
