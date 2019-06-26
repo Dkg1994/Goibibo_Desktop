@@ -1,11 +1,11 @@
 node{
- stage('SCM Checkout'){
- git 'https://github.com/Dkg1994/Goibibo_Desktop'
-}
+  stage ('Build') {
  
- withMaven(
+    git url: 'https://github.com/cyrille-leclerc/multi-module-maven-project'
+ 
+    withMaven(
         // Maven installation declared in the Jenkins "Global Tool Configuration"
-        tool name: 'Maven Machine', type: 'maven'
+        maven: 'maven-3',
         // Maven settings.xml file defined with the Jenkins Config File Provider Plugin
         // We recommend to define Maven settings.xml globally at the folder level using
         // navigating to the folder configuration in the section "Pipeline Maven Configuration / Override global Maven configuration"
@@ -17,9 +17,4 @@ node{
  
     } // withMaven will discover the generated Maven artifacts, JUnit Surefire & FailSafe & FindBugs & SpotBugs reports...
   }
- 
-//stage('Compile-Package'){
- //def mvnHome = tool name: 'Maven Machine', type: 'maven'
- //sh "${mvnHome}/pom.xml"
- 
-
+}
