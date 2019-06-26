@@ -4,6 +4,6 @@ node{
 }
 stage('Compile-Package'){
  def mvnHome = tool name: 'Maven Machine', type: 'maven'
- sh "${mvnHome}/bin/mvn"
+ sh "${mvnHome}/pom.xml"
 }
 }
