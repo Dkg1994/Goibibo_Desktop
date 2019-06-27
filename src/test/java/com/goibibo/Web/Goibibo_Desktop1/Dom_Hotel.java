@@ -1,29 +1,29 @@
-// package com.goibibo.Web.Goibibo_Desktop1;
+package com.goibibo.Web.Goibibo_Desktop1;
 
-// import java.util.ArrayList;
-// import java.util.concurrent.TimeUnit;
+import java.util.ArrayList;
+import java.util.concurrent.TimeUnit;
 
-// import org.openqa.selenium.By;
-// import org.openqa.selenium.WebDriver;
-// import org.openqa.selenium.chrome.ChromeDriver;
-// import org.testng.annotations.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
-// public class Dom_Hotel {
-//   @Test
-//   public void f() throws InterruptedException {
+public class Dom_Hotel {
+  @Test
+  public void f() throws InterruptedException {
 
 	  
 		
 		
-// System.setProperty("webdriver.chrome.driver","D:\\Eclips backup\\Jar Files for use in selenium\\chromedriver.exe");
+System.setProperty("webdriver.chrome.driver","D:\\Eclips backup\\Jar Files for use in selenium\\chromedriver.exe");
 	
-//   WebDriver driver = new ChromeDriver();
+  WebDriver driver = new ChromeDriver();
   
-//   driver.get("https://www.goibibo.com");
+  driver.get("https://www.goibibo.com");
   
-//   driver.manage().window().maximize();
+  driver.manage().window().maximize();
   
-// 	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 // 	driver.findElement(By.xpath("//*[@id=\"header\"]/div[1]/ul/li[2]/a/i")).click();
 	
