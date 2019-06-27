@@ -1,124 +1,124 @@
-package com.goibibo.Web.Goibibo_Desktop1;
+// package com.goibibo.Web.Goibibo_Desktop1;
 
-import java.util.ArrayList;
-import java.util.concurrent.TimeUnit;
+// import java.util.ArrayList;
+// import java.util.concurrent.TimeUnit;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.Test;
+// import org.openqa.selenium.By;
+// import org.openqa.selenium.WebDriver;
+// import org.openqa.selenium.chrome.ChromeDriver;
+// import org.testng.annotations.Test;
 
-public class Dom_Hotel {
-  @Test
-  public void f() throws InterruptedException {
+// public class Dom_Hotel {
+//   @Test
+//   public void f() throws InterruptedException {
 
 	  
 		
 		
-System.setProperty("webdriver.chrome.driver","D:\\Eclips backup\\Jar Files for use in selenium\\chromedriver.exe");
+// System.setProperty("webdriver.chrome.driver","D:\\Eclips backup\\Jar Files for use in selenium\\chromedriver.exe");
 	
-  WebDriver driver = new ChromeDriver();
+//   WebDriver driver = new ChromeDriver();
   
-  driver.get("https://www.goibibo.com");
+//   driver.get("https://www.goibibo.com");
   
-  driver.manage().window().maximize();
+//   driver.manage().window().maximize();
   
-	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+// 	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-	driver.findElement(By.xpath("//*[@id=\"header\"]/div[1]/ul/li[2]/a/i")).click();
+// 	driver.findElement(By.xpath("//*[@id=\"header\"]/div[1]/ul/li[2]/a/i")).click();
 	
-	Thread.sleep(3000);
+// 	Thread.sleep(3000);
 	
-	driver.findElement(By.xpath("//*[@id=\"gosuggest_inputL\"]")).sendKeys("Delhi");
+// 	driver.findElement(By.xpath("//*[@id=\"gosuggest_inputL\"]")).sendKeys("Delhi");
 	
-	 driver.findElement(By.id("react-autosuggest-1-suggestion--0")).click();
+// 	 driver.findElement(By.id("react-autosuggest-1-suggestion--0")).click();
 	
-Thread.sleep(2000);
+// Thread.sleep(2000);
 
-driver.findElement(By.xpath("//*[@id=\"Home\"]/div[3]/div[1]/div/div[1]/div[3]/div/div[3]/div/button")).click();
+// driver.findElement(By.xpath("//*[@id=\"Home\"]/div[3]/div[1]/div/div[1]/div[3]/div/div[3]/div/button")).click();
 
-Thread.sleep(2000);
+// Thread.sleep(2000);
 
-driver.findElement(By.xpath("//*[@id=\"srpContainer\"]/div[2]/div[2]/div/div[1]/div/ul/li[6]/div/div[3]/label/i[2]")).click();
+// driver.findElement(By.xpath("//*[@id=\"srpContainer\"]/div[2]/div[2]/div/div[1]/div/ul/li[6]/div/div[3]/label/i[2]")).click();
 
-Thread.sleep(2000);
+// Thread.sleep(2000);
 
-driver.findElement(By.xpath("//*[@id=\"srpContainer\"]/div[2]/div[2]/div/div[2]/div/div[1]/ul/li[3]/a/span[1]")).click();
+// driver.findElement(By.xpath("//*[@id=\"srpContainer\"]/div[2]/div[2]/div/div[2]/div/div[1]/ul/li[3]/a/span[1]")).click();
 
-Thread.sleep(5000);
+// Thread.sleep(5000);
 
-driver.findElement(By.linkText("The Daanish Residency")).click();
+// driver.findElement(By.linkText("The Daanish Residency")).click();
 
-Thread.sleep(5000);
+// Thread.sleep(5000);
 
-//------------------------------ To Switch in other Tab---------------------------
+// //------------------------------ To Switch in other Tab---------------------------
 
-//driver.findElement(By.cssSelector("body")).sendKeys(Keys.CONTROL +"t");
+// //driver.findElement(By.cssSelector("body")).sendKeys(Keys.CONTROL +"t");
 
-ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
+// ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
 
-driver.switchTo().window(tabs.get(1));
-
-
-//-------------------------------Click on Book Now Button------------------------
-
-Thread.sleep(3000);
+// driver.switchTo().window(tabs.get(1));
 
 
- driver.findElement(By.xpath("//*[@id=\"DetailsQuickView\"]/div[2]/div[2]/div[7]/div/a/button")).click();
+// //-------------------------------Click on Book Now Button------------------------
 
-Thread.sleep(2000);
+// Thread.sleep(3000);
 
-driver.findElement(By.linkText("Booking & Cancellation Policy")).click();
 
-Thread.sleep(1500);
+//  driver.findElement(By.xpath("//*[@id=\"DetailsQuickView\"]/div[2]/div[2]/div[7]/div/a/button")).click();
 
-driver.findElement(By.xpath("//*[@id=\"go_cp_popCont\"]/div/a")).click();
+// Thread.sleep(2000);
 
-Thread.sleep(2000);
+// driver.findElement(By.linkText("Booking & Cancellation Policy")).click();
 
-driver.findElement(By.xpath("//*[@id=\"choose\"]/option[1]")).click();
+// Thread.sleep(1500);
 
-Thread.sleep(1000);
+// driver.findElement(By.xpath("//*[@id=\"go_cp_popCont\"]/div/a")).click();
 
-driver.findElement(By.xpath("//*[@id=\"firstname1\"]")).sendKeys("Test");
+// Thread.sleep(2000);
 
-Thread.sleep(1000);
+// driver.findElement(By.xpath("//*[@id=\"choose\"]/option[1]")).click();
 
-driver.findElement(By.id("lastname1")).sendKeys("Bookings");
+// Thread.sleep(1000);
 
-Thread.sleep(1000);
+// driver.findElement(By.xpath("//*[@id=\"firstname1\"]")).sendKeys("Test");
 
-driver.findElement(By.id("email")).sendKeys("testnoc009@gmail.com");
+// Thread.sleep(1000);
 
-Thread.sleep(1000);
+// driver.findElement(By.id("lastname1")).sendKeys("Bookings");
 
-driver.findElement(By.xpath("//*[@id=\"mobile\"]")).sendKeys("9999999999");
+// Thread.sleep(1000);
 
-Thread.sleep(2000);
+// driver.findElement(By.id("email")).sendKeys("testnoc009@gmail.com");
 
-driver.findElement(By.xpath("//*[@id=\"travellerForm\"]/div[14]/div[2]")).click();
+// Thread.sleep(1000);
 
-Thread.sleep(15000);
+// driver.findElement(By.xpath("//*[@id=\"mobile\"]")).sendKeys("9999999999");
 
-driver.findElement(By.xpath("//*[@id=\"nb\"]/div[1]/div[1]/div[2]")).click();
+// Thread.sleep(2000);
 
-Thread.sleep(1000);
+// driver.findElement(By.xpath("//*[@id=\"travellerForm\"]/div[14]/div[2]")).click();
 
-driver.findElement(By.xpath("//*[@id=\"selectedBank\"]/option[7]")).click();
+// Thread.sleep(15000);
+
+// driver.findElement(By.xpath("//*[@id=\"nb\"]/div[1]/div[1]/div[2]")).click();
+
+// Thread.sleep(1000);
+
+// driver.findElement(By.xpath("//*[@id=\"selectedBank\"]/option[7]")).click();
 	  
-	  Thread.sleep(2000);
+// 	  Thread.sleep(2000);
 
-driver.findElement(By.xpath("//*[@id=\"nbPayNow\"]/div/button")).click();
+// driver.findElement(By.xpath("//*[@id=\"nbPayNow\"]/div/button")).click();
 
-Thread.sleep(9000);
+// Thread.sleep(9000);
 
-driver.close();
-
-
-
-}
+// driver.close();
 
 
 
-}
+// }
+
+
+
+// }
